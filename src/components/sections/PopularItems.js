@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { FOODITEMS } from "../../assets/shared/FOODITEMS";
 
 const PopularItems = () => {
   return (
