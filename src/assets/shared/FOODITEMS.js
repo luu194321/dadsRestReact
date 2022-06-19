@@ -1,3 +1,5 @@
+import asianWings from "../images/asian-wings.jpg";
+
 export const FOODITEMS = [
   {
     id: 0,
@@ -6,6 +8,7 @@ export const FOODITEMS = [
       "Chicken wings marinated in Nuoc Mam (fish sauce) and deep fried",
     price: "18.99",
     popular: true,
+    src: asianWings,
   },
   {
     id: 1,
@@ -14,6 +17,7 @@ export const FOODITEMS = [
       "Deep fried jumbo shrimp (shell on) and sauteed in our signature savory house sauce",
     price: "29.99",
     popular: true,
+    src: asianWings,
   },
   {
     id: 2,
@@ -21,6 +25,7 @@ export const FOODITEMS = [
     description: "Fried rice with mixed vegetables",
     price: "14.99",
     popular: true,
+    src: asianWings,
   },
   {
     id: 3,
@@ -28,6 +33,7 @@ export const FOODITEMS = [
     description: "Vietnamese crab and asparagus soup",
     price: "29.99",
     popular: false,
+    src: asianWings,
   },
   {
     id: 4,
