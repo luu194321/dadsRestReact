@@ -38,7 +38,7 @@
 }
 
 .hero-image {
-  background-image: url("./assets/images/cookingImage.jpg");
+  background-image: url("./assets/images/cooking-image.jpg");
   height: 100vh;
   width: 100vw;
   max-height: 100%;
@@ -65,4 +65,54 @@
 .figure-img {
   box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.24), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 1rem;
+}
+
+.menu-hero-image {
+  background-image: linear-gradient(
+      to left top,
+      rgba(116, 120, 115, 0.09),
+      #b4752846
+    ),
+    url("./assets/images/menu-hero-img.jpg");
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  /* transform: scale(1, 0.95);
+  -ms-transform: scale(1, 0.95);
+  -webkit-transform: scale(1, 0.95); */
+
+  height: 60vh;
+}
+
+.menu-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.menu-header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.menu-header-text {
+  position: absolute;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 1px grey;
+  font-size: 1.3rem;
+}
+.menu-title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 6rem;
 }

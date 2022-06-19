@@ -10,13 +10,13 @@ const PopularItems = () => {
         </Row>
         <Row>
           <Col>
-            <figure class="figure">
+            <figure className="figure">
               <img
                 src="../assets/images/asianWings.jpg"
-                class="figure-img img-fluid rounded"
+                className="figure-img img-fluid rounded"
                 alt="asian chicken wings"
               />
-              <figcaption class="figure-caption d-none d-md-block">
+              <figcaption className="figure-caption d-none d-md-block">
                 Nuoc mam (fish sauce) wings deep fried to perfection.
               </figcaption>
             </figure>
